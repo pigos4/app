@@ -1,0 +1,28 @@
+.y{
+  --btn-padding-vertical: 11px;
+  --btn-padding-horizontal: 28px;
+  --btn-padding-vertical-sm: 7px;
+  --btn-padding-horizontal-sm: 10px;
+  --btn-circle-size: 40px;
+  --btn-circle-size-sm: 30px;
+  --btn-link-padding-horizontal: 18px;
+  display: inline-block;
+  margin: 10px 20px 10px 0;
+  padding: var(--btn-padding-vertical) var(--btn-padding-horizontal);
+  user-select: none;
+  border: 2px solid transparent;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  white-space: nowrap;
+  background-image: none;
+  transition: all .15s;
+  box-shadow: 0 1px 6px rgba(57,73,76,.35);
+  border-radius: var(--radius);
+  background-color:white;
+     
+}
